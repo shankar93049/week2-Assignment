@@ -1,0 +1,38 @@
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        order: 2; 
+        margin-top: 20px;
+    }
+
+    main {
+        order: 1;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 769px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        margin-top: 0;
+    }
+
+    main {
+        margin-left: 20px;
+    }
+}
